@@ -13,6 +13,6 @@ public class TestCustomer {
 
 	@Test
 	public void test02() {
-		assertEquals("Hello Jack", new Customer().sayHello());
+		assertEquals("Hello Jack!", new Customer().sayHello());
 	}
 }
