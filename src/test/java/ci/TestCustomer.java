@@ -15,4 +15,9 @@ public class TestCustomer {
 	public void test02() {
 		assertEquals("Hello Jack!", new Customer().sayHello());
 	}
+	
+	@Test
+	public void test03() {
+		assertEquals("Hello Jack!", new Customer().sayHello());
+	}
 }
